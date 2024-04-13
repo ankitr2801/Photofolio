@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+form {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  box-shadow: 5px 10px 15px rgba(188, 231, 216, 0.8);
+  width: 70%;
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+
+.inputContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+
+}
+.AlbumInput {
+  padding: 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color: rgb(200, 235, 235);
+  font-size: 20px;
+}
+
+.AlbumInput:focus {
+  border: 2px solid blue;
+  width: 100%;
+}
+
+.AlbumInput::placeholder {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.AlbumButton {
+  margin-left: 10px;
+  padding: 12px;
+  background: rgb(236, 98, 98);
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+} 
